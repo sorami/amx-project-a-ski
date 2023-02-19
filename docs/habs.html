@@ -19,10 +19,10 @@ body { margin: 0; }
 <script type="text/javascript">
 
 // Use UNVT Portable if not accessed from Chrome.
-if (!navigator.userAgent.match("Chrome")) {
-  document.location.href = "https://amx-project.github.io/a#" +
-    document.location.href.split('#')[1]
-}
+// if (!navigator.userAgent.match("Chrome")) {
+//   document.location.href = "https://amx-project.github.io/a#" +
+//     document.location.href.split('#')[1]
+// }
 
 let protocol = new pmtiles.Protocol()
 maplibregl.addProtocol("pmtiles", protocol.tile)
