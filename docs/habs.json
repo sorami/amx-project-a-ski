@@ -31,7 +31,7 @@
     },
     "ski-geojson": {
       "type": "geojson",
-      "data": "/osm_winter_sports.geojson",
+      "data": "./osm_winter_sports.geojson",
       "attribution": "©️OpenStreetMap contributors"
     }
   },
